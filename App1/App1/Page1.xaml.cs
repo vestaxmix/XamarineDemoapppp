@@ -21,6 +21,18 @@ namespace App1
         void loginButton_Clicked2(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Page1());
+      var listItems = new list<PlaceItem
+        {
+            new PlaceItem()
+        {
+            Name = "Item 1",
+            Description = "Description 1"
         }
+        new PlaceItem()
+    {
+        Name = "Item 2",
+        Description = "Description 2"
     }
-}
+      new PlaceItem()
+      Name = "Item" 3",
+      Description = "Description 3"
